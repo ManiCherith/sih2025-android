@@ -1,0 +1,277 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.civicconnect.android"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Network permissions -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:6:5-67
+12-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:7:5-79
+13-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:7:22-76
+14
+15    <!-- Location permissions -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:10:5-79
+16-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:11:5-81
+17-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:11:22-78
+18
+19    <!-- Camera and Storage permissions -->
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:14:5-65
+20-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:14:22-62
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:15:5-80
+21-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:15:22-77
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:16:5-81
+22-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:16:22-78
+23    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+23-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:17:5-76
+23-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:17:22-73
+24
+25    <uses-feature
+25-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:19:5-21:36
+26        android:name="android.hardware.camera"
+26-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:20:9-47
+27        android:required="false" />
+27-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:21:9-33
+28    <uses-feature
+28-->[com.google.android.gms:play-services-maps:19.2.0] /home/mithu/.gradle/caches/8.13/transforms/5f96ee1cb2de288c581b068280f4d840/transformed/jetified-play-services-maps-19.2.0/AndroidManifest.xml:22:5-24:33
+29        android:glEsVersion="0x00020000"
+29-->[com.google.android.gms:play-services-maps:19.2.0] /home/mithu/.gradle/caches/8.13/transforms/5f96ee1cb2de288c581b068280f4d840/transformed/jetified-play-services-maps-19.2.0/AndroidManifest.xml:23:8-40
+30        android:required="true" />
+30-->[com.google.android.gms:play-services-maps:19.2.0] /home/mithu/.gradle/caches/8.13/transforms/5f96ee1cb2de288c581b068280f4d840/transformed/jetified-play-services-maps-19.2.0/AndroidManifest.xml:24:8-31
+31
+32    <queries>
+32-->[com.google.android.gms:play-services-maps:19.2.0] /home/mithu/.gradle/caches/8.13/transforms/5f96ee1cb2de288c581b068280f4d840/transformed/jetified-play-services-maps-19.2.0/AndroidManifest.xml:27:5-30:15
+33
+34        <!-- Needs to be explicitly declared on Android R+ -->
+35        <package android:name="com.google.android.apps.maps" />
+35-->[com.google.android.gms:play-services-maps:19.2.0] /home/mithu/.gradle/caches/8.13/transforms/5f96ee1cb2de288c581b068280f4d840/transformed/jetified-play-services-maps-19.2.0/AndroidManifest.xml:29:7-61
+35-->[com.google.android.gms:play-services-maps:19.2.0] /home/mithu/.gradle/caches/8.13/transforms/5f96ee1cb2de288c581b068280f4d840/transformed/jetified-play-services-maps-19.2.0/AndroidManifest.xml:29:16-59
+36    </queries>
+37
+38    <permission
+38-->[androidx.core:core:1.13.1] /home/mithu/.gradle/caches/8.13/transforms/26ab96f0bcafbabb9233c4ce24bbb9ab/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+39        android:name="com.civicconnect.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+39-->[androidx.core:core:1.13.1] /home/mithu/.gradle/caches/8.13/transforms/26ab96f0bcafbabb9233c4ce24bbb9ab/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+40        android:protectionLevel="signature" />
+40-->[androidx.core:core:1.13.1] /home/mithu/.gradle/caches/8.13/transforms/26ab96f0bcafbabb9233c4ce24bbb9ab/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+41
+42    <uses-permission android:name="com.civicconnect.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+42-->[androidx.core:core:1.13.1] /home/mithu/.gradle/caches/8.13/transforms/26ab96f0bcafbabb9233c4ce24bbb9ab/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+42-->[androidx.core:core:1.13.1] /home/mithu/.gradle/caches/8.13/transforms/26ab96f0bcafbabb9233c4ce24bbb9ab/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+43
+44    <application
+44-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:23:5-72:19
+45        android:name="com.civicconnect.android.Application"
+45-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:24:9-36
+46        android:allowBackup="true"
+46-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:25:9-35
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.13.1] /home/mithu/.gradle/caches/8.13/transforms/26ab96f0bcafbabb9233c4ce24bbb9ab/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+48        android:dataExtractionRules="@xml/data_extraction_rules"
+48-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:26:9-65
+49        android:debuggable="true"
+50        android:extractNativeLibs="false"
+51        android:fullBackupContent="@xml/backup_rules"
+51-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:27:9-54
+52        android:icon="@mipmap/ic_launcher"
+52-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:28:9-43
+53        android:label="@string/app_name"
+53-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:29:9-41
+54        android:networkSecurityConfig="@xml/network_security_config"
+54-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:33:9-69
+55        android:roundIcon="@mipmap/ic_launcher_round"
+55-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:30:9-54
+56        android:supportsRtl="true"
+56-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:31:9-35
+57        android:testOnly="true"
+58        android:theme="@style/Theme.CivicConnect" >
+58-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:32:9-50
+59
+60        <!-- Google Maps API Key -->
+61        <meta-data
+62            android:name="com.google.android.geo.API_KEY"
+62-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:38:13-58
+63            android:value="AIzaSyAe41n-Ok0AMdaJJOz_QpLwterN3D0Q85c" />
+63-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:39:13-44
+64
+65        <!-- Activities -->
+66        <activity
+66-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:42:9-50:20
+67            android:name="com.civicconnect.android.activities.MainActivity"
+67-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:43:13-52
+68            android:exported="true"
+68-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:44:13-36
+69            android:theme="@style/Theme.CivicConnect" >
+69-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:45:13-54
+70            <intent-filter>
+70-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:46:13-49:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:47:17-69
+71-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:47:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:48:17-77
+73-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:48:27-74
+74            </intent-filter>
+75        </activity>
+76        <activity
+76-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:52:9-55:57
+77            android:name="com.civicconnect.android.activities.LoginActivity"
+77-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:53:13-53
+78            android:exported="false"
+78-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:54:13-37
+79            android:theme="@style/Theme.CivicConnect" />
+79-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:55:13-54
+80        <activity
+80-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:57:9-60:57
+81            android:name="com.civicconnect.android.activities.IssueDetailActivity"
+81-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:58:13-59
+82            android:exported="false"
+82-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:59:13-37
+83            android:theme="@style/Theme.CivicConnect" />
+83-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:60:13-54
+84
+85        <!-- File Provider -->
+86        <provider
+87            android:name="androidx.core.content.FileProvider"
+87-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:64:13-62
+88            android:authorities="com.civicconnect.android.provider"
+88-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:65:13-60
+89            android:exported="false"
+89-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:66:13-37
+90            android:grantUriPermissions="true" >
+90-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:67:13-47
+91            <meta-data
+91-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:68:13-70:63
+92                android:name="android.support.FILE_PROVIDER_PATHS"
+92-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:69:17-67
+93                android:resource="@xml/file_provider_paths" />
+93-->/home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/AndroidManifest.xml:70:17-60
+94        </provider>
+95
+96        <activity
+96-->[pub.devrel:easypermissions:3.0.0] /home/mithu/.gradle/caches/8.13/transforms/1b038cbcbf4745622dcc0ebdb1bd78f6/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:12:9-16:66
+97            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+97-->[pub.devrel:easypermissions:3.0.0] /home/mithu/.gradle/caches/8.13/transforms/1b038cbcbf4745622dcc0ebdb1bd78f6/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:13:13-86
+98            android:exported="false"
+98-->[pub.devrel:easypermissions:3.0.0] /home/mithu/.gradle/caches/8.13/transforms/1b038cbcbf4745622dcc0ebdb1bd78f6/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:14:13-37
+99            android:label=""
+99-->[pub.devrel:easypermissions:3.0.0] /home/mithu/.gradle/caches/8.13/transforms/1b038cbcbf4745622dcc0ebdb1bd78f6/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:15:13-29
+100            android:theme="@style/EasyPermissions.Transparent" /> <!-- Needs to be explicitly declared on P+ -->
+100-->[pub.devrel:easypermissions:3.0.0] /home/mithu/.gradle/caches/8.13/transforms/1b038cbcbf4745622dcc0ebdb1bd78f6/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:16:13-63
+101        <uses-library
+101-->[com.google.android.gms:play-services-maps:19.2.0] /home/mithu/.gradle/caches/8.13/transforms/5f96ee1cb2de288c581b068280f4d840/transformed/jetified-play-services-maps-19.2.0/AndroidManifest.xml:33:7-86
+102            android:name="org.apache.http.legacy"
+102-->[com.google.android.gms:play-services-maps:19.2.0] /home/mithu/.gradle/caches/8.13/transforms/5f96ee1cb2de288c581b068280f4d840/transformed/jetified-play-services-maps-19.2.0/AndroidManifest.xml:33:21-58
+103            android:required="false" />
+103-->[com.google.android.gms:play-services-maps:19.2.0] /home/mithu/.gradle/caches/8.13/transforms/5f96ee1cb2de288c581b068280f4d840/transformed/jetified-play-services-maps-19.2.0/AndroidManifest.xml:33:59-83
+104
+105        <activity
+105-->[com.google.android.gms:play-services-base:18.5.0] /home/mithu/.gradle/caches/8.13/transforms/82b1b5487c256abb7b16d573275d98ae/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+106            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+106-->[com.google.android.gms:play-services-base:18.5.0] /home/mithu/.gradle/caches/8.13/transforms/82b1b5487c256abb7b16d573275d98ae/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+107            android:exported="false"
+107-->[com.google.android.gms:play-services-base:18.5.0] /home/mithu/.gradle/caches/8.13/transforms/82b1b5487c256abb7b16d573275d98ae/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+108-->[com.google.android.gms:play-services-base:18.5.0] /home/mithu/.gradle/caches/8.13/transforms/82b1b5487c256abb7b16d573275d98ae/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+109
+110        <meta-data
+110-->[com.google.android.gms:play-services-basement:18.4.0] /home/mithu/.gradle/caches/8.13/transforms/0d5d14917d4e28d5888c1c2880d6470e/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+111            android:name="com.google.android.gms.version"
+111-->[com.google.android.gms:play-services-basement:18.4.0] /home/mithu/.gradle/caches/8.13/transforms/0d5d14917d4e28d5888c1c2880d6470e/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+112            android:value="@integer/google_play_services_version" />
+112-->[com.google.android.gms:play-services-basement:18.4.0] /home/mithu/.gradle/caches/8.13/transforms/0d5d14917d4e28d5888c1c2880d6470e/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+113
+114        <provider
+114-->[androidx.emoji2:emoji2:1.3.0] /home/mithu/.gradle/caches/8.13/transforms/0244574e2a3878ae5e60ac8f01c61594/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+115            android:name="androidx.startup.InitializationProvider"
+115-->[androidx.emoji2:emoji2:1.3.0] /home/mithu/.gradle/caches/8.13/transforms/0244574e2a3878ae5e60ac8f01c61594/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+116            android:authorities="com.civicconnect.android.androidx-startup"
+116-->[androidx.emoji2:emoji2:1.3.0] /home/mithu/.gradle/caches/8.13/transforms/0244574e2a3878ae5e60ac8f01c61594/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+117            android:exported="false" >
+117-->[androidx.emoji2:emoji2:1.3.0] /home/mithu/.gradle/caches/8.13/transforms/0244574e2a3878ae5e60ac8f01c61594/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+118            <meta-data
+118-->[androidx.emoji2:emoji2:1.3.0] /home/mithu/.gradle/caches/8.13/transforms/0244574e2a3878ae5e60ac8f01c61594/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+119                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+119-->[androidx.emoji2:emoji2:1.3.0] /home/mithu/.gradle/caches/8.13/transforms/0244574e2a3878ae5e60ac8f01c61594/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+120                android:value="androidx.startup" />
+120-->[androidx.emoji2:emoji2:1.3.0] /home/mithu/.gradle/caches/8.13/transforms/0244574e2a3878ae5e60ac8f01c61594/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+121            <meta-data
+121-->[androidx.lifecycle:lifecycle-process:2.8.6] /home/mithu/.gradle/caches/8.13/transforms/bdf9c9e6f4bed87be99edfac1191d2c3/transformed/jetified-lifecycle-process-2.8.6/AndroidManifest.xml:29:13-31:52
+122                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+122-->[androidx.lifecycle:lifecycle-process:2.8.6] /home/mithu/.gradle/caches/8.13/transforms/bdf9c9e6f4bed87be99edfac1191d2c3/transformed/jetified-lifecycle-process-2.8.6/AndroidManifest.xml:30:17-78
+123                android:value="androidx.startup" />
+123-->[androidx.lifecycle:lifecycle-process:2.8.6] /home/mithu/.gradle/caches/8.13/transforms/bdf9c9e6f4bed87be99edfac1191d2c3/transformed/jetified-lifecycle-process-2.8.6/AndroidManifest.xml:31:17-49
+124            <meta-data
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+125                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+126                android:value="androidx.startup" />
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+127        </provider>
+128
+129        <uses-library
+129-->[androidx.window:window:1.0.0] /home/mithu/.gradle/caches/8.13/transforms/1246a98e90c74c82d8770a85f3b69b69/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+130            android:name="androidx.window.extensions"
+130-->[androidx.window:window:1.0.0] /home/mithu/.gradle/caches/8.13/transforms/1246a98e90c74c82d8770a85f3b69b69/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+131            android:required="false" />
+131-->[androidx.window:window:1.0.0] /home/mithu/.gradle/caches/8.13/transforms/1246a98e90c74c82d8770a85f3b69b69/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+132        <uses-library
+132-->[androidx.window:window:1.0.0] /home/mithu/.gradle/caches/8.13/transforms/1246a98e90c74c82d8770a85f3b69b69/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+133            android:name="androidx.window.sidecar"
+133-->[androidx.window:window:1.0.0] /home/mithu/.gradle/caches/8.13/transforms/1246a98e90c74c82d8770a85f3b69b69/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+134            android:required="false" />
+134-->[androidx.window:window:1.0.0] /home/mithu/.gradle/caches/8.13/transforms/1246a98e90c74c82d8770a85f3b69b69/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+135
+136        <receiver
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+137            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+138            android:directBootAware="false"
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+139            android:enabled="true"
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+140            android:exported="true"
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+141            android:permission="android.permission.DUMP" >
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+142            <intent-filter>
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+143                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+144            </intent-filter>
+145            <intent-filter>
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+146                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+147            </intent-filter>
+148            <intent-filter>
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+149                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+150            </intent-filter>
+151            <intent-filter>
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+152                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mithu/.gradle/caches/8.13/transforms/520405cfc64e681edcd8a088ea042217/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+153            </intent-filter>
+154        </receiver>
+155    </application>
+156
+157</manifest>
