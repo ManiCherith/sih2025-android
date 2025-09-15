@@ -1,130 +1,150 @@
 [
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.civicconnect.android.app-debug-55:/layout_activity_login.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/layout/activity_login.xml"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.civicconnect.android.app-debug-55:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.civicconnect.android.app-main-57:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/drawable_ic_report.xml.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/drawable/ic_report.xml"
+        "merged": "com.civicconnect.android.app-debug-55:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.civicconnect.android.app-main-57:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.civicconnect.android.app-debug-55:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.civicconnect.android.app-main-57:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.civicconnect.android.app-debug-55:/drawable_placeholder_image.png.flat",
+        "source": "com.civicconnect.android.app-main-57:/drawable/placeholder_image.png"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/layout_fragment_map.xml.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/layout/fragment_map.xml"
+        "merged": "com.civicconnect.android.app-debug-55:/xml_file_provider_paths.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/xml/file_provider_paths.xml"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/xml_backup_rules.xml.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/xml/backup_rules.xml"
-    },
-    {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.civicconnect.android.app-debug-55:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.civicconnect.android.app-main-57:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
         "merged": "com.civicconnect.android.app-debug-55:/layout_fragment_report_issue.xml.flat",
         "source": "com.civicconnect.android.app-main-57:/layout/fragment_report_issue.xml"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.civicconnect.android.app-debug-55:/drawable_rounded_corner_bg.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/drawable/rounded_corner_bg.xml"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.civicconnect.android.app-debug-55:/xml_data_extraction_rules.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/drawable_ic_profile.xml.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/drawable/ic_profile.xml"
+        "merged": "com.civicconnect.android.app-debug-55:/xml_network_security_config.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/xml/network_security_config.xml"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/menu_bottom_navigation_menu.xml.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/menu/bottom_navigation_menu.xml"
+        "merged": "com.civicconnect.android.app-debug-55:/layout_item_issue.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/layout/item_issue.xml"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/drawable/ic_launcher_background.xml"
+        "merged": "com.civicconnect.android.app-debug-55:/drawable_ic_empty_state.png.flat",
+        "source": "com.civicconnect.android.app-main-57:/drawable/ic_empty_state.png"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.civicconnect.android.app-debug-55:/drawable_status_bg.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/drawable/status_bg.xml"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.civicconnect.android.app-debug-55:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.civicconnect.android.app-main-57:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/drawable_ic_map.xml.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/drawable/ic_map.xml"
+        "merged": "com.civicconnect.android.app-debug-55:/drawable_error_image.png.flat",
+        "source": "com.civicconnect.android.app-main-57:/drawable/error_image.png"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/drawable_ic_issues.xml.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/drawable/ic_issues.xml"
+        "merged": "com.civicconnect.android.app-debug-55:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.civicconnect.android.app-main-57:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/layout_fragment_report_issue.xml.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/layout/fragment_report_issue.xml"
+        "merged": "com.civicconnect.android.app-debug-55:/drawable_ic_issues.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/drawable/ic_issues.xml"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.civicconnect.android.app-debug-55:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/layout_activity_issue_detail.xml.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/layout/activity_issue_detail.xml"
+        "merged": "com.civicconnect.android.app-debug-55:/drawable_ic_map.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/drawable/ic_map.xml"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/layout_activity_main.xml.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/layout/activity_main.xml"
+        "merged": "com.civicconnect.android.app-debug-55:/layout_activity_main.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/layout/activity_main.xml"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.civicconnect.android.app-debug-55:/layout_activity_issue_detail.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/layout/activity_issue_detail.xml"
+    },
+    {
+        "merged": "com.civicconnect.android.app-debug-55:/xml_backup_rules.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.civicconnect.android.app-debug-55:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.civicconnect.android.app-main-57:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "com.civicconnect.android.app-debug-55:/layout_fragment_map.xml.flat",
         "source": "com.civicconnect.android.app-main-57:/layout/fragment_map.xml"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.civicconnect.android.app-debug-55:/drawable_category_bg.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/drawable/category_bg.xml"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/xml_network_security_config.xml.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/xml/network_security_config.xml"
+        "merged": "com.civicconnect.android.app-debug-55:/drawable_ic_profile.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/drawable/ic_profile.xml"
     },
     {
         "merged": "com.civicconnect.android.app-debug-55:/layout_fragment_issue_list.xml.flat",
         "source": "com.civicconnect.android.app-main-57:/layout/fragment_issue_list.xml"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/layout_activity_login.xml.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/layout/activity_login.xml"
+        "merged": "com.civicconnect.android.app-debug-55:/drawable_priority_bg.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/drawable/priority_bg.xml"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/xml_file_provider_paths.xml.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/xml/file_provider_paths.xml"
+        "merged": "com.civicconnect.android.app-debug-55:/menu_bottom_navigation_menu.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/menu/bottom_navigation_menu.xml"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/layout_fragment_issue_list.xml.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/layout/fragment_issue_list.xml"
+        "merged": "com.civicconnect.android.app-debug-55:/drawable_ic_report.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/drawable/ic_report.xml"
     },
     {
-        "merged": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-debug-55:/xml_data_extraction_rules.xml.flat",
-        "source": "/home/mithu/.gradle/daemon/8.13/com.civicconnect.android.app-main-57:/xml/data_extraction_rules.xml"
+        "merged": "com.civicconnect.android.app-debug-55:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.civicconnect.android.app-debug-55:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.civicconnect.android.app-debug-55:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.civicconnect.android.app-main-57:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.civicconnect.android.app-debug-55:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.civicconnect.android.app-main-57:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.civicconnect.android.app-debug-55:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.civicconnect.android.app-main-57:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.civicconnect.android.app-debug-55:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.civicconnect.android.app-main-57:/mipmap-xxxhdpi/ic_launcher.webp"
     }
 ]

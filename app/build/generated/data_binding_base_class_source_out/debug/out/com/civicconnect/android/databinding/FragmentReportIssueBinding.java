@@ -30,10 +30,19 @@ public final class FragmentReportIssueBinding implements ViewBinding {
   public final Button btnSubmitIssue;
 
   @NonNull
+  public final Button btnUseCurrentLocation;
+
+  @NonNull
   public final EditText etDescription;
 
   @NonNull
+  public final EditText etLatitude;
+
+  @NonNull
   public final EditText etLocation;
+
+  @NonNull
+  public final EditText etLongitude;
 
   @NonNull
   public final EditText etTitle;
@@ -51,15 +60,19 @@ public final class FragmentReportIssueBinding implements ViewBinding {
   public final TextView tvReportTitle;
 
   private FragmentReportIssueBinding(@NonNull ScrollView rootView, @NonNull Button btnAddPhoto,
-      @NonNull Button btnSubmitIssue, @NonNull EditText etDescription, @NonNull EditText etLocation,
-      @NonNull EditText etTitle, @NonNull ImageView ivPhotoPreview,
+      @NonNull Button btnSubmitIssue, @NonNull Button btnUseCurrentLocation,
+      @NonNull EditText etDescription, @NonNull EditText etLatitude, @NonNull EditText etLocation,
+      @NonNull EditText etLongitude, @NonNull EditText etTitle, @NonNull ImageView ivPhotoPreview,
       @NonNull Spinner spinnerCategory, @NonNull Spinner spinnerPriority,
       @NonNull TextView tvReportTitle) {
     this.rootView = rootView;
     this.btnAddPhoto = btnAddPhoto;
     this.btnSubmitIssue = btnSubmitIssue;
+    this.btnUseCurrentLocation = btnUseCurrentLocation;
     this.etDescription = etDescription;
+    this.etLatitude = etLatitude;
     this.etLocation = etLocation;
+    this.etLongitude = etLongitude;
     this.etTitle = etTitle;
     this.ivPhotoPreview = ivPhotoPreview;
     this.spinnerCategory = spinnerCategory;
@@ -106,15 +119,33 @@ public final class FragmentReportIssueBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnUseCurrentLocation;
+      Button btnUseCurrentLocation = ViewBindings.findChildViewById(rootView, id);
+      if (btnUseCurrentLocation == null) {
+        break missingId;
+      }
+
       id = R.id.etDescription;
       EditText etDescription = ViewBindings.findChildViewById(rootView, id);
       if (etDescription == null) {
         break missingId;
       }
 
+      id = R.id.etLatitude;
+      EditText etLatitude = ViewBindings.findChildViewById(rootView, id);
+      if (etLatitude == null) {
+        break missingId;
+      }
+
       id = R.id.etLocation;
       EditText etLocation = ViewBindings.findChildViewById(rootView, id);
       if (etLocation == null) {
+        break missingId;
+      }
+
+      id = R.id.etLongitude;
+      EditText etLongitude = ViewBindings.findChildViewById(rootView, id);
+      if (etLongitude == null) {
         break missingId;
       }
 
@@ -149,8 +180,8 @@ public final class FragmentReportIssueBinding implements ViewBinding {
       }
 
       return new FragmentReportIssueBinding((ScrollView) rootView, btnAddPhoto, btnSubmitIssue,
-          etDescription, etLocation, etTitle, ivPhotoPreview, spinnerCategory, spinnerPriority,
-          tvReportTitle);
+          btnUseCurrentLocation, etDescription, etLatitude, etLocation, etLongitude, etTitle,
+          ivPhotoPreview, spinnerCategory, spinnerPriority, tvReportTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

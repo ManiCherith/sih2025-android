@@ -2231,6 +2231,7 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color text_secondary
 color tooltip_background_dark
 color tooltip_background_light
 color transparent
@@ -3130,6 +3131,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable category_bg
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -3154,6 +3156,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable error_image
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_arrow_back_black_24
@@ -3165,6 +3168,7 @@ drawable ic_call_decline
 drawable ic_call_decline_low
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_empty_state
 drawable ic_issues
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -3253,6 +3257,10 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable placeholder_image
+drawable priority_bg
+drawable rounded_corner_bg
+drawable status_bg
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3360,6 +3368,7 @@ id bounceEnd
 id bounceStart
 id btnAddPhoto
 id btnSubmitIssue
+id btnUseCurrentLocation
 id btn_login
 id btn_signup
 id buttonPanel
@@ -3440,13 +3449,16 @@ id edit_query
 id edit_text_id
 id elastic
 id embed
+id emptyStateLayout
 id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
 id escape
 id etDescription
+id etLatitude
 id etLocation
+id etLongitude
 id etTitle
 id et_login_email
 id et_login_password
@@ -3508,6 +3520,7 @@ id inward
 id is_pooling_container_tag
 id italic
 id item_touch_helper_previous_elevation
+id ivPhoto
 id ivPhotoPreview
 id jumpToEnd
 id jumpToStart
@@ -3646,12 +3659,14 @@ id pooling_container_listener_holder_tag
 id position
 id postLayout
 id pressed
+id progressBar
 id progress_bar
 id progress_circular
 id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerViewIssues
 id report_drawn
 id reverseSawtooth
 id right
@@ -3661,7 +3676,6 @@ id right_side
 id rounded
 id row_index_key
 id rtl
-id rvIssues
 id satellite
 id save_non_transition_alpha
 id save_overlay_view
@@ -3729,6 +3743,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id swipeRefresh
 id tabMode
 id tab_layout
 id tag_accessibility_actions
@@ -3781,8 +3796,13 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tvIssueListTitle
+id tvCategory
+id tvCreatedAt
+id tvLocation
+id tvPriority
 id tvReportTitle
+id tvStatus
+id tvTitle
 id tv_category
 id tv_coordinates
 id tv_description
@@ -3956,6 +3976,7 @@ layout fragment_map
 layout fragment_report_issue
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_issue
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

@@ -1,7 +1,7 @@
 package com.civicconnect.android.utils
 
 object Constants {
-    const val BASE_URL = "http://10.0.2.2:3443/"
+    const val BASE_URL = "http://192.168.0.102:3443/"
 
 
     // Shared Preferences Keys

@@ -5,10 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.TextView;
+import android.widget.ProgressBar;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.civicconnect.android.R;
@@ -18,24 +20,33 @@ import java.lang.String;
 
 public final class FragmentIssueListBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final RecyclerView rvIssues;
+  public final LinearLayout emptyStateLayout;
 
   @NonNull
-  public final TextView tvIssueListTitle;
+  public final ProgressBar progressBar;
 
-  private FragmentIssueListBinding(@NonNull LinearLayout rootView, @NonNull RecyclerView rvIssues,
-      @NonNull TextView tvIssueListTitle) {
+  @NonNull
+  public final RecyclerView recyclerViewIssues;
+
+  @NonNull
+  public final SwipeRefreshLayout swipeRefresh;
+
+  private FragmentIssueListBinding(@NonNull ConstraintLayout rootView,
+      @NonNull LinearLayout emptyStateLayout, @NonNull ProgressBar progressBar,
+      @NonNull RecyclerView recyclerViewIssues, @NonNull SwipeRefreshLayout swipeRefresh) {
     this.rootView = rootView;
-    this.rvIssues = rvIssues;
-    this.tvIssueListTitle = tvIssueListTitle;
+    this.emptyStateLayout = emptyStateLayout;
+    this.progressBar = progressBar;
+    this.recyclerViewIssues = recyclerViewIssues;
+    this.swipeRefresh = swipeRefresh;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -60,19 +71,32 @@ public final class FragmentIssueListBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.rvIssues;
-      RecyclerView rvIssues = ViewBindings.findChildViewById(rootView, id);
-      if (rvIssues == null) {
+      id = R.id.emptyStateLayout;
+      LinearLayout emptyStateLayout = ViewBindings.findChildViewById(rootView, id);
+      if (emptyStateLayout == null) {
         break missingId;
       }
 
-      id = R.id.tvIssueListTitle;
-      TextView tvIssueListTitle = ViewBindings.findChildViewById(rootView, id);
-      if (tvIssueListTitle == null) {
+      id = R.id.progressBar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
         break missingId;
       }
 
-      return new FragmentIssueListBinding((LinearLayout) rootView, rvIssues, tvIssueListTitle);
+      id = R.id.recyclerViewIssues;
+      RecyclerView recyclerViewIssues = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerViewIssues == null) {
+        break missingId;
+      }
+
+      id = R.id.swipeRefresh;
+      SwipeRefreshLayout swipeRefresh = ViewBindings.findChildViewById(rootView, id);
+      if (swipeRefresh == null) {
+        break missingId;
+      }
+
+      return new FragmentIssueListBinding((ConstraintLayout) rootView, emptyStateLayout,
+          progressBar, recyclerViewIssues, swipeRefresh);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

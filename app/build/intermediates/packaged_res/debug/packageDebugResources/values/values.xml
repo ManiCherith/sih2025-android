@@ -40,6 +40,7 @@
     <color name="success_light">#32B8C6</color>
     <color name="surface">#FFFFFD</color>
     <color name="surface_variant">#F5F5F5</color>
+    <color name="text_secondary">#666666</color>
     <color name="transparent">#00000000</color>
     <color name="warning">#A84B2F</color>
     <color name="warning_light">#E68161</color>

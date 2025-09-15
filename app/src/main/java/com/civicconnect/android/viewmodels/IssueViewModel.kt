@@ -26,12 +26,15 @@ class IssueViewModel : ViewModel() {
     private val _error = MutableLiveData<String>()
     val error: LiveData<String> = _error
 
+    // Added LiveData for create result to notify UI on issue creation
+    private val _createResult = MutableLiveData<Result<Issue>>()
+    val createResult: LiveData<Result<Issue>> get() = _createResult
+
     fun loadIssues() {
         viewModelScope.launch {
             try {
                 _isLoading.value = true
                 val response = apiService.getIssues()
-
                 if (response.isSuccessful) {
                     _issues.value = response.body() ?: emptyList()
                 } else {
@@ -63,8 +66,8 @@ class IssueViewModel : ViewModel() {
                 val descriptionBody = description.toRequestBody("text/plain".toMediaTypeOrNull())
                 val locationBody = location.toRequestBody("text/plain".toMediaTypeOrNull())
                 val priorityBody = priority.toRequestBody("text/plain".toMediaTypeOrNull())
-                val coordinatesBody = coordinates?.joinToString(",")?.toRequestBody("text/plain".toMediaTypeOrNull())
-                    ?: "".toRequestBody("text/plain".toMediaTypeOrNull())
+                val coordsJson = coordinates?.let { "[${it[0]},${it[1]}]" } ?: "null"
+                val coordinatesBody = coordsJson.toRequestBody("application/json".toMediaTypeOrNull())
 
                 val photoPart = photoFile?.let { file ->
                     val requestFile = file.asRequestBody("image/*".toMediaTypeOrNull())
@@ -72,17 +75,23 @@ class IssueViewModel : ViewModel() {
                 }
 
                 val response = apiService.createIssue(
-                    titleBody, categoryBody, descriptionBody, 
+                    titleBody, categoryBody, descriptionBody,
                     locationBody, priorityBody, coordinatesBody, photoPart
                 )
 
                 if (response.isSuccessful) {
-                    loadIssues() // Refresh the list
+                    response.body()?.let {
+                        _createResult.value = Result.success(it)
+                    } ?: run {
+                        _createResult.value = Result.failure(Exception("Empty response body"))
+                    }
+                    // Refresh the issues list after successful creation
+                    loadIssues()
                 } else {
-                    _error.value = "Failed to create issue: ${response.message()}"
+                    _createResult.value = Result.failure(Exception("Failed to create issue: ${response.message()}"))
                 }
             } catch (e: Exception) {
-                _error.value = "Network error: ${e.message}"
+                _createResult.value = Result.failure(e)
             } finally {
                 _isLoading.value = false
             }

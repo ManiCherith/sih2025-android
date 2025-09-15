@@ -3,88 +3,162 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" 
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:fillViewport="true"
+    android:background="@android:color/white"
+    android:padding="20dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@drawable/rounded_corner_bg"
+        android:elevation="1dp"
+        android:padding="20dp">
 
         <TextView
             android:id="@+id/tvReportTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Report New Issue"
-            android:textSize="24sp"
+            android:text="Report a New Issue"
+            android:textSize="20sp"
             android:textStyle="bold"
-            android:paddingBottom="12dp"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="18dp" />
 
-        <EditText
-            android:id="@+id/etTitle"
+        <!-- Category -->
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Title"
-            android:inputType="textPersonName"
-            android:maxLines="1"
-            android:paddingBottom="8dp" />
-
-        <EditText
-            android:id="@+id/etDescription"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Description"
-            android:inputType="textMultiLine"
-            android:minLines="3"
-            android:gravity="top"
-            android:paddingBottom="8dp" />
-
-        <EditText
-            android:id="@+id/etLocation"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Location description"
-            android:inputType="text"
-            android:maxLines="1"
-            android:paddingBottom="8dp" />
-
+            android:text="Issue Category"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
         <Spinner
             android:id="@+id/spinnerCategory"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:prompt="@string/issue_category"
-            android:paddingBottom="8dp" />
+            android:layout_marginBottom="12dp" />
 
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Brief description of the issue"
+            android:maxLines="1"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="Provide detailed information about the issue"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Location -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/etLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Street address or landmark"
+            android:maxLines="1"
+            android:layout_marginBottom="3dp" />
+
+        <!-- Manual Coordinates -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coordinates (Optional)"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/etLatitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Latitude"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="6dp" />
+        <EditText
+            android:id="@+id/etLongitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Longitude"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="12dp" />
+              <Button
+    android:id="@+id/btnUseCurrentLocation"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="📍 Use My Location"
+    android:layout_marginBottom="12dp"
+    android:textAllCaps="false"/>
+        <!-- Priority -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Priority Level"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
         <Spinner
             android:id="@+id/spinnerPriority"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:prompt="@string/issue_priority"
-            android:paddingBottom="16dp" />
+            android:layout_marginBottom="14dp"/>
 
+        <!-- Photo upload -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Photo (Optional)"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
         <Button
             android:id="@+id/btnAddPhoto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Add Photo"/>
-
+            android:text="📷 Add Photo"
+            android:textAllCaps="false"
+            android:layout_marginTop="6dp"/>
         <ImageView
             android:id="@+id/ivPhotoPreview"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="180dp"
             android:scaleType="centerCrop"
+            android:background="@drawable/rounded_corner_bg"
             android:visibility="gone"
             android:layout_marginTop="8dp"
+            android:layout_marginBottom="14dp"
             android:contentDescription="Issue photo preview"/>
 
+        <!-- Submit Button -->
         <Button
             android:id="@+id/btnSubmitIssue"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Submit Issue"
-            android:layout_marginTop="24dp"
+            android:text="Submit Report"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
             android:backgroundTint="@color/primary"
             android:textColor="@android:color/white"/>
-
     </LinearLayout>
-
 </ScrollView>

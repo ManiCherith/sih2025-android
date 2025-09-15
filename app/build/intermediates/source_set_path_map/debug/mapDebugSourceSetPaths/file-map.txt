@@ -49,10 +49,10 @@ com.civicconnect.android.app-coordinatorlayout-1.1.0-47 /home/mithu/.gradle/cach
 com.civicconnect.android.app-core-runtime-2.2.0-48 /home/mithu/.gradle/caches/8.13/transforms/f63e257a1ba7dc50302f3f327d5619fa/transformed/core-runtime-2.2.0/res
 com.civicconnect.android.app-jetified-lifecycle-livedata-core-ktx-2.8.6-49 /home/mithu/.gradle/caches/8.13/transforms/fc7803989925d98f456762f9e901f54e/transformed/jetified-lifecycle-livedata-core-ktx-2.8.6/res
 com.civicconnect.android.app-navigation-common-2.8.3-50 /home/mithu/.gradle/caches/8.13/transforms/fe55ff48dedb69790094a99f0cef29aa/transformed/navigation-common-2.8.3/res
-com.civicconnect.android.app-pngs-51 /home/mithu/AndroidStudioProjects/CivicConnect/app/build/generated/res/pngs/debug
-com.civicconnect.android.app-resValues-52 /home/mithu/AndroidStudioProjects/CivicConnect/app/build/generated/res/resValues/debug
-com.civicconnect.android.app-packageDebugResources-53 /home/mithu/AndroidStudioProjects/CivicConnect/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.civicconnect.android.app-packageDebugResources-54 /home/mithu/AndroidStudioProjects/CivicConnect/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.civicconnect.android.app-debug-55 /home/mithu/AndroidStudioProjects/CivicConnect/app/build/intermediates/merged_res/debug/mergeDebugResources
-com.civicconnect.android.app-debug-56 /home/mithu/AndroidStudioProjects/CivicConnect/app/src/debug/res
-com.civicconnect.android.app-main-57 /home/mithu/AndroidStudioProjects/CivicConnect/app/src/main/res
+com.civicconnect.android.app-pngs-51 /home/mithu/AndroidStudioProjects/SkunkWorks/app/build/generated/res/pngs/debug
+com.civicconnect.android.app-resValues-52 /home/mithu/AndroidStudioProjects/SkunkWorks/app/build/generated/res/resValues/debug
+com.civicconnect.android.app-packageDebugResources-53 /home/mithu/AndroidStudioProjects/SkunkWorks/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.civicconnect.android.app-packageDebugResources-54 /home/mithu/AndroidStudioProjects/SkunkWorks/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.civicconnect.android.app-debug-55 /home/mithu/AndroidStudioProjects/SkunkWorks/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.civicconnect.android.app-debug-56 /home/mithu/AndroidStudioProjects/SkunkWorks/app/src/debug/res
+com.civicconnect.android.app-main-57 /home/mithu/AndroidStudioProjects/SkunkWorks/app/src/main/res

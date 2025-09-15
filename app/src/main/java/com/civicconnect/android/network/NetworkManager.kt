@@ -35,7 +35,7 @@ object NetworkManager {
         chain.proceed(newRequest)
     }
 
-    private val loggingInterceptor = HttpLoggingInterceptor().apply {
+    val loggingInterceptor = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BODY
     }
 

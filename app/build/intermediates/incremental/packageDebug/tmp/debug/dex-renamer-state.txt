@@ -1,13 +1,13 @@
-#Sun Sep 14 19:19:03 IST 2025
-base.0=/home/mithu/AndroidStudioProjects/CivicConnect/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/home/mithu/AndroidStudioProjects/CivicConnect/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.2=/home/mithu/AndroidStudioProjects/CivicConnect/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
-base.3=/home/mithu/AndroidStudioProjects/CivicConnect/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
-base.4=/home/mithu/AndroidStudioProjects/CivicConnect/app/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex
-base.5=/home/mithu/AndroidStudioProjects/CivicConnect/app/build/intermediates/dex/debug/mergeProjectDexDebug/4/classes.dex
-base.6=/home/mithu/AndroidStudioProjects/CivicConnect/app/build/intermediates/dex/debug/mergeProjectDexDebug/8/classes.dex
-base.7=/home/mithu/AndroidStudioProjects/CivicConnect/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
-base.8=/home/mithu/AndroidStudioProjects/CivicConnect/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+#Mon Sep 15 18:05:09 IST 2025
+base.0=/home/mithu/AndroidStudioProjects/SkunkWorks/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/home/mithu/AndroidStudioProjects/SkunkWorks/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/home/mithu/AndroidStudioProjects/SkunkWorks/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
+base.3=/home/mithu/AndroidStudioProjects/SkunkWorks/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
+base.4=/home/mithu/AndroidStudioProjects/SkunkWorks/app/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex
+base.5=/home/mithu/AndroidStudioProjects/SkunkWorks/app/build/intermediates/dex/debug/mergeProjectDexDebug/4/classes.dex
+base.6=/home/mithu/AndroidStudioProjects/SkunkWorks/app/build/intermediates/dex/debug/mergeProjectDexDebug/8/classes.dex
+base.7=/home/mithu/AndroidStudioProjects/SkunkWorks/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
+base.8=/home/mithu/AndroidStudioProjects/SkunkWorks/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=11/classes.dex
